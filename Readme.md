@@ -2,6 +2,7 @@
 
 * Студент: [Елена Семакова](https://up.htmlacademy.ru/htmlcss/40/user/2525307).
 * Наставник: [Евгения Подопригора](https://htmlacademy.ru/profile/id2387199)
+Мой сайт: [Мой проект Седона](https://simlena.github.io/2525307-sedona-40/)
 
 ---
 
