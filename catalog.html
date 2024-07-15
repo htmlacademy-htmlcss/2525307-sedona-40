@@ -50,7 +50,7 @@
       <section class="filters" data-test="filter">  
         <h2 class="visually-hidden">Фильтры</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-          <fielset class="catalog-filter-group">
+          <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
@@ -69,7 +69,7 @@
                 </label>
               </li>          
             </ul>
-          </fielset>
+          </fieldset>
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Тип жилья:</legend>
             <ul class="catalog-filter-list">
@@ -139,9 +139,9 @@
               <h3 class="product-card-title">Amara Resort & Spa</h3>
             </a>
             <p class="product-card-type">Гостиница</p>
-            <p class="product-card-price">от 5000 Р</p>
+            <p class="product-card-price"><b>от 5000 Р</b></p>
             <a class="product-card-button" href="#">Подробнее</a>
-            <a class="add-favorite-button" href=#>В избранном</a>
+            <button class="add-favorite-button" href=#>В избранное</button>
             <p class="product-card-stars product-card-stars-4"><span class="visually-hidden">4 звезды</span></p>
             <p class="product-card-rating">Рейтинг:<span>9,2</span></p>
           </li>
@@ -151,9 +151,9 @@
               <h3 class="product-card-title">Desert Quail Inn</h3>
             </a>
             <p class="product-card-type">Гостиница</p>
-            <p class="product-card-price">от 2500 Р</p>
+            <p class="product-card-price"><b>от 2500 Р</b></p>
             <a class="product-card-button" href="#">Подробнее</a>
-            <a class="add-favorite-button" href=#>В избранном</a>
+            <button class="favorite-button" href=#>В избранное</button>
             <p class="product-card-stars product-card-stars-3"><span class="visually-hidden">3 звезды</span></p>
             <p class="product-card-rating">Рейтинг:<span>6,9</span></p>
           </li>
@@ -163,9 +163,9 @@
               <h3 class="product-card-title">GreenTree Inn</h3>
             </a>
             <p class="product-card-type">Гостиница</p>
-            <p class="product-card-price">от 1500 Р</p>
+            <p class="product-card-price"><b>от 1500 Р</b></p>
             <a class="product-card-button" href="#">Подробнее</a>
-            <a class="add-favorite-button" href=#>В избранном</a>
+            <button class="in-favorite-button" type="submit">В избранное</button>
             <p class="product-card-stars product-card-stars-2"><span class="visually-hidden">2 звезды</span></p>
             <p class="product-card-rating">Рейтинг:<span>5,0</span></p>
           </li>
@@ -195,10 +195,10 @@
       <section class="subscribe" data-test="subscribe">
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form class-="subscribe-form" action="https://echo.htmlacademy.ru/" method="post"> 
+        <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post"> 
           <p class="subscribe-form-name">
             <label class="visually-hidden" for="user-email">Ваш email</label>
-            <input type="text" id="user-email" name="user-email" placeholder="Ваш email">
+            <input type="text" id="user-email" name="user-email" placeholder="Ваш email" required>
           <p>
           <button class="subscribe-button" type="submit">Подписаться</button>
         </form>
