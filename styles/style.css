@@ -1,0 +1,382 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+.body{
+	font-family:"PT Sans", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #333333;
+	background-color: #f2f2f2;
+
+}
+
+.page-header {
+  color: #000000;
+  background-color: #ffffff;
+}
+.navigation-link {
+	font-family: "PT Sans", sans-serif;
+	font-size: 20px;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+
+}
+.hero{
+ background-color: #287233;
+ background-image: url("../images/background/index-background.jpg"), url("../images/svg/collar.svg");
+ background-position:center, center;
+  background-size: cover, 100% auto;
+  background-repeat: no-repeat, no-repeat;
+}
+
+
+.lead{
+font-family: "PT Sans", sans-serif;
+font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.lead-top{
+font-family: "PT Sans", sans-serif;
+font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+
+.h3 {font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+color:#000000;}
+
+.advantages-list {
+  text-align: center;
+}
+
+.advantages-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-item{
+	font-size: 18px;
+line-height: 21px;
+color:#333333;
+background-color:rgba(131,179,211,0.12);
+}
+
+
+.advantages-item-wide{
+	background-color:#82B3D3;
+}
+.advantages-item-three {
+	background-color:rgba(131,179,211,0.20);
+}
+
+.infrastructure-list{
+text-align: center;
+}
+
+.infrastructure-item{
+font-size: 18px;
+line-height: 21px;
+color:#333333;
+background-color:rgba(131,179,211,0.12);
+}
+
+
+.infrastructure-one{
+	background-color:#ffffff
+}
+
+.infrastructure-title{
+font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.search-title{
+font-family: "PT Sans", sans-serif;
+font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.search-button{
+	font-family: "PT Sans", sans-serif;
+	font-size: 20px;
+  	line-height: 36px;
+  	color:#000000;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.search-descreption{
+font-family: "PT Sans", sans-serif;
+font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+  background-color: #ffffff;
+  text-decoration: none;}
+
+ .subscribe-theme-custom{
+  	background-color: #287233;
+ background-image: url("../images/background/view-mountains.jpg");
+ background-position:center;
+ background-size: 100% auto;
+  background-repeat: no-repeat;
+  color:#ffffff;
+ text-align: center;
+  }
+
+.subscribe{
+  font-family: "PT Sans", sans-serif;
+  color:#000000;
+ text-align: center;
+  }
+  .subscribe-title{
+  	font-family: "PT Sans", sans-serif;
+font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  }
+
+ .subscribe-title-top{
+ font-family: "PT Sans", sans-serif;
+font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-decoration: none;}
+ }
+
+.subscribe-form{
+font-family: "PT Sans", sans-serif;
+
+}
+.subscribe-button{
+font-family: "PT Sans", sans-serif;
+font-size: 20px;
+line-height: 36px;
+font-weight: 700;
+color:#ffffff;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.page-footer{
+  color:#000000;
+  background-color: #ffffff;
+}
+.footer-phone-link{
+  font-family: "PT Sans", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+
+/*каталог*/
+
+.inner-container{
+background-color: #287233;
+background-image: url("../images/background/Mountains-are-a-blur.jpg");
+background-position:center;
+background-size: cover;
+background-repeat: no-repeat;
+color:#ffffff;
+
+}
+
+.inner-header-title{
+font-family: "PT Sans", sans-serif;
+font-size: 60px;
+line-height: 78px;
+font-weight: 700;
+text-transform: uppercase;
+color: #ffffff;
+}
+
+.breadcrumbs-link {
+font-family: "PT Sans", sans-serif;
+font-size: 16px;
+line-height: 21px;
+font-weight: 400;
+}
+.catalog-filter-title{
+font-family: "PT Sans", sans-serif;
+font-size: 20px;
+line-height: 24px;
+font-weight: 700;
+}
+
+.catalog-filter-submit{
+font-family: "PT Sans", sans-serif;
+font-size: 16px;
+line-height:20px;
+font-weight: 700;
+text-transform: uppercase;
+color: #ffffff;
+}
+
+.catalog-filter-reset{
+font-family: "PT Sans", sans-serif;
+font-size: 16px;
+line-height:20px;
+font-weight: 700;
+text-transform: uppercase;
+color: #ffffff;
+}
+
+.catalog-filter-item{
+font-family: "PT Sans", sans-serif;
+font-size: 18px;
+line-height:23px;
+font-weight: 400;
+color: #ffffff;
+}
+
+.catalog-products{
+font-family: "PT Sans", sans-serif;
+}
+
+.pagination{
+font-family: "PT Sans", sans-serif;
+font-size: 20px;
+line-height:36px;
+font-weight: 700;
+text-align: center;
+}
+
+.product-card-link{
+font-size: 24px;
+line-height:28px;
+font-weight: 700;
+color:#000000;
+text-decoration: none;
+}
+
+.product-card-type{
+font-family: "PT Sans", sans-serif;
+font-size: 18px;
+line-height:21px;
+font-weight: 400;
+}
+
+.product-card-price{
+font-family: "PT Sans", sans-serif;
+font-size: 18px;
+line-height:21px;
+font-weight: 400;
+}
+.product-card-button-link{
+font-family: "PT Sans", sans-serif;
+font-size: 16px;
+line-height:20px;
+font-weight: 700;
+color:#ffffff;
+text-transform: uppercase;
+text-decoration: none;
+text-align: center;
+}
+
+.add-favorite-button{
+font-family: "PT Sans", sans-serif;
+font-size: 16px;
+line-height:20px;
+font-weight: 700;
+color:#ffffff;
+text-transform: uppercase;
+text-decoration: none;
+text-align: center;
+}
+
+.add-in-favorite-button{
+  font-family: "PT Sans", sans-serif;
+font-size: 16px;
+line-height:20px;
+font-weight: 700;
+color:#ffffff;
+text-transform: uppercase;
+text-decoration: none;
+text-align: center;
+}
+
+.favorite-button{
+  font-family: "PT Sans", sans-serif;
+font-size: 16px;
+line-height:20px;
+font-weight: 700;
+color:#ffffff;
+text-transform: uppercase;
+text-decoration: none;
+text-align: center;
+}
+
+.in-favorite-button{
+  font-family: "PT Sans", sans-serif;
+font-size: 16px;
+line-height:20px;
+font-weight: 700;
+color:#ffffff;
+text-transform: uppercase;
+text-decoration: none;
+text-align: center;
+}
+
+.product-card-rating{
+font-family: "PT Sans", sans-serif;
+font-size: 16px;
+line-height:20px;
+font-weight: 400;
+color:#333333;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.select-control{
+font-family: "PT Sans", sans-serif;
+font-size: 18px;
+line-height:21px;
+font-weight: 400;
+color:#333333;
+}
