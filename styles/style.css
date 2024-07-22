@@ -492,7 +492,7 @@ background-repeat: no-repeat;
 .infrastructure-souvenirs::before {
 top: -104px;
 margin-left: -32px;
-width: 64px;
+width: 65px;
 height: 76px;
 background-image: url("../images/svg/souvenirs.svg");
 background-repeat: no-repeat;
