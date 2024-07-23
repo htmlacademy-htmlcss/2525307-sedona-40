@@ -1700,6 +1700,7 @@ grid-column: 4/6;
 display: grid;
 grid-template-columns: 1fr 110px;
 align-items: center;
+word-break: break-all;
 }
 
 .form-search-option-adults .count-container {
