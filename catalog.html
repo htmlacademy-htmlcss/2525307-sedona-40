@@ -64,7 +64,7 @@
                 </a>
               </li>
               <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link" href="#">Гостиницы</a>
+                <a class="breadcrumbs-link">Гостиницы</a>
               </li>  
             </ol>
           </header>
@@ -72,7 +72,7 @@
             <h2 class="visually-hidden">Фильтры</h2>
             <form class="catalog-filter-form" action="https://echo.htmlacademy.ru/" method="get">
               <fieldset class="catalog-filter-group catalog-group-infrastructure">
-                <legend class="catalog-filter-title">Инфраструктура</legend>
+                <legend class="catalog-filter-title">Инфраструктура:</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
                     <label class="control">
@@ -127,11 +127,11 @@
                 <legend class="catalog-filter-title">Стоимость, Р:</legend>
                 <div class="filter-wrapper-inputs">
                   <div class="filter-wrapper-input">
-                    <input class="filter-input filter-input-min" type="number" name="min-price" value="0" id="min-price">
+                    <input class="filter-input filter-input-min" type="number" name="min-price" value="0" id="min-price" required> 
                     <label class="catalog-filter-label" for="min-price"> от</label>
                   </div>
                   <div class="filter-wrapper-input">
-                    <input class="filter-input filter-input-max" type="number" name="max-price" value="9000" id="max-price">
+                    <input class="filter-input filter-input-max" type="number" name="max-price" value="9000" id="max-price" required>
                     <label class="catalog-filter-label" for="max-price"> до</label>
                   </div>
                 </div>
@@ -169,7 +169,7 @@
           </div>
 
           <div class="catalog-products-buttons">
-            <a class="catalog-tiles card-tiles-current" href="#">
+            <a class="catalog-tiles catalog-tiles-current" href="#">
               <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="14"
                 viewBox="0 0 16 14" fill="currentColor">
                 <path d="M4 0H0v6h4V0ZM16 0h-4v6h4V0ZM10 0H6v6h4V0ZM4 8H0v6h4V8ZM16 8h-4v6h4V8ZM10 8H6v6h4V8Z" />
@@ -242,7 +242,7 @@
                   <li class="card-rating-item"></li>
                 </ul>
                 <span class="visually-hidden">4 звезды</span>
-                <span class="card-rating-text">Рейтинг: 8,5</span>
+                <span class="card-rating-text">Рейтинг: 9,2</span>
               </div>
             </li>
             <li class="product-card">
@@ -293,7 +293,7 @@
           </ul>
           <ul class="pagination">
             <li class="pagination-item">
-              <a class="pagination-link pagination-current">1</a>
+              <a class="pagination-link pagination-link-current">1</a>
             </li>
             <li class="pagination-item">
               <a class="pagination-link" href="#">2</a>
@@ -312,10 +312,10 @@
             </li>
           </ul>
         </section>
-        <section class="subscribe-theme-custom" data-test="subscribe">
-          <div class="subscription-container">
+        <section class="subscribe" data-test="subscribe">
+          <div class="subscription-container-catalog">
             <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-            <p class="subscribe-descreption">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
+            <p class="subscribe-description-item">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
             <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post"> 
               <p class="subscribe-form-name">
                 <label class="visually-hidden" for="user-email">Почта для рассылки</label>
