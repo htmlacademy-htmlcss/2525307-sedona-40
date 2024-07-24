@@ -1616,6 +1616,13 @@ color:#333333;
   text-transform: capitalize;
 }
 
+.form-search .form-search-label-kids {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
 .form-search-input {
   position: relative;
   padding: 12px 20px 11px;
@@ -1681,7 +1688,7 @@ color:#333333;
   word-break: break-all;
 }
 
-.form-search-label {
+.form-search-label-kids {
   word-break: break-all;
   max-width: 50px;
   display: inline-block;
