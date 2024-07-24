@@ -1681,6 +1681,12 @@ color:#333333;
   word-break: break-all;
 }
 
+.form-search-label {
+  word-break: break-all;
+  max-width: 50px;
+  display: inline-block;
+}
+
 .form-search-option-adults .count-container {
   grid-column: 2/3;
 }
