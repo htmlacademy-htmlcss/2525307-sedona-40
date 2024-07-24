@@ -119,7 +119,6 @@ img {
   position: relative;
   display: block;
   padding: 20px 16px;
-  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -211,8 +210,8 @@ img {
 }
 
 .button {
-  display: inline-block;
   font-family: "PT Sans", sans-serif;
+  display: inline-block;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
@@ -261,7 +260,7 @@ img {
 }
 
 .hero {
-  background-color: #756157;
+  background-color: #E6F0F6;
   background-image:
     url("../images/svg/collar.svg"),
     url("../images/background/index-background.jpg ");
@@ -273,7 +272,6 @@ img {
 }
 
 .lead {
-  font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -285,7 +283,6 @@ img {
 }
 
 .lead-top {
-  font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -307,7 +304,6 @@ img {
 }
 
 .advantages-list {
-  font-family: "PT Sans", sans-serif;
   display: flex;
   flex-wrap: wrap;
   width: 1200px;
@@ -317,7 +313,6 @@ img {
 }
 
 .advantages-title {
-  font-family: "PT Sans", sans-serif;
   position: relative;
   font-size: 24px;
   line-height: 28px;
@@ -368,7 +363,6 @@ img {
 }
 
 .advantages-item-container .advantages-description {
-  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
 }
@@ -394,7 +388,6 @@ img {
 }
 
 .infrastructure {
-  font-family: "PT Sans", sans-serif;
   text-align: center;
 }
 
@@ -494,7 +487,6 @@ img {
 }
 
 .search {
-  font-family: "PT Sans", sans-serif;
   text-align: center;
 }
 
@@ -533,7 +525,6 @@ img {
 }
 
 .subscribe-theme-custom {
-  font-family: "PT Sans", sans-serif;
   text-align: center;
   background-image: url("../images/background/view-mountains.jpg");
   background-position: center;
@@ -544,7 +535,6 @@ img {
 }
 
 .subscribe {
-  font-family: "PT Sans", sans-serif;
   text-align: center;
   color: #000000;
 }
@@ -700,7 +690,6 @@ color:#333333;
 }
 
 .footer-phone-link {
-  font-family: "PT Sans", sans-serif;
   font-size: 40px;
   line-height: 40px;
   max-width: 700px;
@@ -747,7 +736,6 @@ color:#333333;
 /* catalog */
 
 .inner-container {
-  font-family: "PT Sans", sans-serif;
   background-color: #756157;
   background-image: url("../images/background/mountains-are-a-blur.jpg");
   background-position: center;
@@ -1143,20 +1131,30 @@ color:#333333;
 
 
 .catalog-products {
-  font-family: "PT Sans", sans-serif;
   display: flex;
   align-items: flex-start;
   padding: 50px 70px 40px;
 }
 
 .catalog-products-buttons {
-  font-family: "PT Sans", sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 8px;
   max-width: 160px;
   margin-left: 70px;
+}
+
+.catalog-tile-icon {
+  background-image: url("../images/svg/points-tile.svg");
+}
+
+.catalog-card-icon {
+  background-image: url("../images/svg/point-card.svg");
+}
+
+.catalog-list-icon {
+  background-image: url("../images/svg/points-list.svg");
 }
 
 .catalog-products-title {
@@ -1217,11 +1215,10 @@ color:#333333;
   height: 48px;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.catalog-tiles svg {
-  fill: #000000;
-}
 
 .catalog-tiles:hover {
   border-color: #000000;
@@ -1241,7 +1238,6 @@ color:#333333;
 }
 
 .catalog {
-  font-family: "PT Sans", sans-serif;
   padding-left: 70px;
   padding-right: 70px;
 }
@@ -1422,7 +1418,11 @@ color:#333333;
   width: 18px;
   height: 18px;
   background-image: url("../images/svg/star.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 6px;
 }
+
 
 .card-rating-text {
   width: 140px;
@@ -1437,7 +1437,6 @@ color:#333333;
 
 
 .pagination {
-  font-family: "PT Sans", sans-serif;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -1524,8 +1523,10 @@ color:#333333;
   background-color: #f2f2f2;
 }
 
+
+/* modal */
+
 .modal-container {
-  font-family: "PT Sans", sans-serif;
   position: fixed;
   top: 0;
   left: 0;
