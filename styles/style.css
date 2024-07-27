@@ -1121,14 +1121,14 @@ color: rgba(255, 255, 255, 0.3);
 background-color: #82b3d3;
 }
 
-.sapply-button:disabled,
-.sapply-button.disabled,
-.sapply-button:disabled:hover,
-.sapply-button.disabled:hover,
-.sapply-button:disabled:focus-visible,
-.sapply-button.disabled:focus-visible,
-.sapply-button:disabled:active,
-.sapply-button.disabled:active {
+.apply-button:disabled,
+.apply-button.disabled,
+.apply-button:disabled:hover,
+.apply-button.disabled:hover,
+.apply-button:disabled:focus-visible,
+.apply-button.disabled:focus-visible,
+.apply-button:disabled:active,
+.apply-button.disabled:active {
 color: #ffffff;
 background-color: #e5e5e5;
 pointer-events: none;
