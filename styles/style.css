@@ -1100,14 +1100,6 @@ img {
   background-color: #82b3d3;
 }
 
-.apply-button {
-  width: 100%;
-  padding-top: 8px;
-  padding-bottom: 8px;
-
-  background-color: #82b3d3;
-}
-
 .apply-button:hover {
   background-color: #68a2ca;
 }
@@ -1117,8 +1109,8 @@ img {
 }
 
 .apply-button:active {
-color: rgba(255, 255, 255, 0.3);
-background-color: #82b3d3;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #82b3d3;
 }
 
 .apply-button:disabled,
@@ -1129,32 +1121,32 @@ background-color: #82b3d3;
 .apply-button.disabled:focus-visible,
 .apply-button:disabled:active,
 .apply-button.disabled:active {
-color: #ffffff;
-background-color: #e5e5e5;
-pointer-events: none;
+  color: #ffffff;
+  background-color: #e5e5e5;
+  pointer-events: none;
 }
 
 .clear-button {
-width: 100%;
-padding-top: 8px;
-padding-bottom: 8px;
-background-color: transparent;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: transparent;
 }
 
 .clear-button:hover {
-background-color: transparent;
-opacity: 0.6;
+  background-color: transparent;
+  opacity: 0.6;
 }
 
 .clear-button:focus-visible {
-background-color: transparent;
-outline: 2px solid #68a2ca;
-outline-offset: -2px;
+  background-color: transparent;
+  outline: 2px solid #68a2ca;
+  outline-offset: -2px;
 }
 
 .clear-button:active {
-background-color: transparent;
-opacity: 0.3;
+  background-color: transparent;
+  opacity: 0.3;
 }
 
 .clear-button:disabled,
@@ -1165,9 +1157,9 @@ opacity: 0.3;
 .clear-button.disabled:focus-visible,
 .clear-button:disabled:active,
 .clear-button.disabled:active {
-background-color: transparent;
-opacity: 0.1;
-pointer-events: none;
+  background-color: transparent;
+  opacity: 0.1;
+  pointer-events: none;
 }
 
 
